@@ -1,7 +1,7 @@
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#0f0d43] text-white/80 pt-16 pb-8 font-poppins">
+    <footer className="bg-[#102A5C] text-white/80 pt-16 pb-8 font-poppins">
   <div className="max-w-7xl mx-auto px-6 lg:px-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center sm:text-left">
     {/* 1. Logo & Info */}
     <div className="flex flex-col items-center sm:items-start space-y-4">
@@ -26,17 +26,22 @@ export const Footer = () => {
       <ul className="text-base text-white/70 space-y-3">
         <li>
           <a href="#" className="hover:text-blue-400 transition-all">
-            Company Profile
+            Terms&Conditions
           </a>
         </li>
         <li>
           <a href="#" className="hover:text-blue-400 transition-all">
-            Vision &amp; Mission
+            Privay Policy
           </a>
         </li>
         <li>
           <a href="#" className="hover:text-blue-400 transition-all">
-            Careers
+            Accreditions
+          </a>
+        </li>
+         <li>
+          <a href="#" className="hover:text-blue-400 transition-all">
+            Customer Review
           </a>
         </li>
       </ul>
@@ -44,22 +49,27 @@ export const Footer = () => {
     {/* 3. Help */}
     <div className="space-y-4">
       <h4 className="font-bold text-white uppercase text-lg tracking-wider">
-        Help
+        Vechicle
       </h4>
       <ul className="text-base text-white/70 space-y-3">
         <li>
           <a href="#" className="hover:text-blue-400 transition-all">
-            Privacy Policy
+            Stock Details
           </a>
         </li>
         <li>
           <a href="#" className="hover:text-blue-400 transition-all">
-            Terms &amp; Conditions
+            StockList
           </a>
         </li>
         <li>
           <a href="#" className="hover:text-blue-400 transition-all">
             FAQ
+          </a>
+        </li>
+          <li>
+          <a href="#" className="hover:text-blue-400 transition-all">
+            How to Buy
           </a>
         </li>
       </ul>

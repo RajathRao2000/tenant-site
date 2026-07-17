@@ -6,6 +6,7 @@ import { Home } from './pages/Home.tsx';
 import { Layout } from './components/Layout.tsx';
 import { StockDetails } from './pages/StockDetails.tsx';
 import { StockList } from './pages/StockList.tsx';
+import { Form } from './pages/form.tsx';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +23,11 @@ element : <StockDetails/>
       {
         path:'list',
         element: <StockList/>
+      },
+      {
+        path:'form',
+        element: <Form
+        />
       }
     ]
   },
